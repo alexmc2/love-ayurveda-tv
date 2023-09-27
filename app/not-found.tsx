@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import NotFoundImage from '@/public/images/404.jpg';
 // import PageIllustration from '@/components/page-illustration'
 
@@ -31,7 +31,7 @@ export default function NotFound() {
                   alt="404"
                 />
                 <svg
-                  className="w-20 h-20 fill-current text-purple-600 absolute top-0 right-0 -mr-6"
+                  className="w-20 h-20 fill-current text-fuchsia-700 absolute top-0 right-0 -mr-6"
                   width="84"
                   height="80"
                   xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function NotFound() {
                 Head to our{' '}
                 <Link
                   href="/"
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
                 >
                   homepage
                 </Link>{' '}

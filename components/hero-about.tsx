@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { Typography, Card } from '@material-tailwind/react';
 
 export default function HeroAbout() {

@@ -1,6 +1,7 @@
 import './css/style.css';
 
 import { Inter, Architects_Daughter } from 'next/font/google';
+import { ParallaxProvider } from "react-scroll-parallax";
 
 import Header from '@/components/ui/header';
 
@@ -30,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-slate-100 to-slate-50 text-gray-800 tracking-tight`}
+        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-slate-50 to-slate-50 text-gray-800 tracking-tight`}
       >
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />

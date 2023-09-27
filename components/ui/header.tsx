@@ -83,31 +83,24 @@ export default function Header() {
               </li>
               {/* 1st level: hover */}
               {/* <Dropdown title="Resources"> */}
-                {/* 2nd level: hover */}
-                <li>
-                  <Link
-                    href="/documentation"
-                    className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                  >
-                    Clinic
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/support"
-                    className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                  >
-                    Contact
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/404"
-                    className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                  >
-                    404
-                  </Link>
-                </li>
+              {/* 2nd level: hover */}
+              <li>
+                <Link
+                  href="/documentation"
+                  className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
+                >
+                  Clinic
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/support"
+                  className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
+                >
+                  Contact
+                </Link>
+              </li>
+
               {/* </Dropdown> */}
             </ul>
 

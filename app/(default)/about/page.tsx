@@ -5,7 +5,7 @@ export const metadata = {
 
 import HeroAbout from '@/components/hero-about';
 
-import Team from '@/components/team';
+import AboutMe from '@/components/about-me';
 import TestimonialsCarousel from '@/components/testimonials-carousel';
 import Career from '@/components/career';
 import Clients from '@/components/clients';
@@ -16,7 +16,7 @@ export default function About() {
     <>
       <HeroAbout />
 
-      <Team />
+      <AboutMe />
       <TestimonialsCarousel />
       <Career />
       <Clients />

@@ -29,7 +29,7 @@ export default function HeroHome() {
             >
               love ayurveyda tv
             </h1>
-            <Card className="mx-auto max-w-5xl p-8 sm:p-12 mt-9 shadow-sm">
+            <Card className="mx-auto max-w-5xl p-8 sm:p-12 mt-9 shadow-sm text-center sm:text-left">
               <Typography
                 className="text-lg sm:text-lg text-slate-500  "
                 data-aos="fade-up"
@@ -60,7 +60,7 @@ export default function HeroHome() {
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
-            video="SU4dNIzjjxk?si=MFie2qhLQxDhh7iB"
+            videoUrl="https://www.youtube.com/embed/SU4dNIzjjxk?si=MFie2qhLQxDhh7iB"
             videoWidth={1920}
             videoHeight={1080}
           />

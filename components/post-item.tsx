@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import PostDate from '@/components/post-date'
 import PostTags from './post-tags'
 

@@ -4,9 +4,9 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero-home'
-import Process from '@/components/process'
+
 import FeaturesHome from '@/components/features'
-import Tabs from '@/components/tabs'
+import NewsEvents from '@/components/news-events'
 import Target from '@/components/target'
 import News from '@/components/news'
 import Newsletter from '@/components/newsletter'
@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Process />
+  
       <FeaturesHome />
-      <Tabs />
+      <NewsEvents />
       <Target />
       <News />
       <Newsletter />      

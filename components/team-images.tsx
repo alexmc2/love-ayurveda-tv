@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 import TeamMosaic01 from '@/public/images/team-mosaic-01.jpg'
 import TeamMosaic02 from '@/public/images/team-mosaic-02.jpg'

@@ -1,18 +1,18 @@
 'use client';
 
 import { useState, useRef, Fragment } from 'react';
-import type { StaticImageData } from 'next/image';
+import type { StaticImageData } from 'next/legacy/image';
 import { Dialog, Transition } from '@headlessui/react';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 interface ModalVideoProps {
   thumb: StaticImageData;
   thumbWidth: number;
   thumbHeight: number;
   thumbAlt: string;
-  video: string;
-  videoWidth: number;
-  videoHeight: number;
+  videoUrl: string; // New prop for the video URL
+  videoWidth?: number; // Made optional
+  videoHeight?: number; // Made optional
 }
 
 export default function ModalVideo({
@@ -20,9 +20,9 @@ export default function ModalVideo({
   thumbWidth,
   thumbHeight,
   thumbAlt,
-  video,
-  videoWidth,
-  videoHeight,
+  videoUrl, // Use the new prop
+  videoWidth = 640, // Default value
+  videoHeight = 360, // Default value
 }: ModalVideoProps) {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -68,7 +68,7 @@ export default function ModalVideo({
               </defs>
               <circle fill="url(#a)" cx="44" cy="44" r="44" />
               <path
-                className="fill-current text-purple-600"
+                className="fill-current text-fuchsia-700"
                 d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
               />
             </svg>
@@ -99,7 +99,7 @@ export default function ModalVideo({
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/SU4dNIzjjxk?si=MFie2qhLQxDhh7iB"
+                  src={`${videoUrl}&autoplay=1`}
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
