@@ -86,7 +86,7 @@ export default function Header() {
               {/* 2nd level: hover */}
               <li>
                 <Link
-                  href="/documentation"
+                  href="/clinic"
                   className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
                 >
                   Clinic

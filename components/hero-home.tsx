@@ -2,7 +2,7 @@
 
 import VideoThumb from '@/public/images/hero-image-01.jpg';
 import ModalVideo from '@/components/modal-video';
-import { Typography, Card } from '@material-tailwind/react';
+import { Typography, Card, Button } from '@material-tailwind/react';
 
 export default function HeroHome() {
   return (
@@ -29,7 +29,7 @@ export default function HeroHome() {
             >
               love ayurveyda tv
             </h1>
-            <Card className="mx-auto max-w-5xl p-8 sm:p-12 mt-9 shadow-sm text-center sm:text-left">
+            <Card className="mx-auto max-w-6xl p-8 sm:p-12 mt-9 shadow-sm text-center sm:text-left">
               <Typography
                 className="text-lg sm:text-lg text-slate-500  "
                 data-aos="fade-up"
@@ -49,16 +49,33 @@ export default function HeroHome() {
                 health. <br></br>
                 <br></br>
                 Be part of our community and help to spread greater awareness,
-                understanding, and love. Join the discussion. Follow us on
-                Eventbrite. Please subscribe to our YouTube Channel too.
+                understanding, and love. Join the discussion.{' '}
+                <a
+                  href="https://www.eventbrite.co.uk/o/love-ayurveda-tv-32057046449"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-500"
+                >
+                  Follow us on Eventbrite
+                </a>
+                . Please{' '}
+                <a
+                  href="https://www.youtube.com/@loveayurvedatv/featured"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-500"
+                >
+                  subscribe to our YouTube Channel
+                </a>{' '}
+                too.
               </Typography>
             </Card>
           </div>
 
           <ModalVideo
             thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
+            thumbWidth={1200}
+            thumbHeight={675}
             thumbAlt="Modal video thumbnail"
             videoUrl="https://www.youtube.com/embed/SU4dNIzjjxk?si=MFie2qhLQxDhh7iB"
             videoWidth={1920}
@@ -66,20 +83,20 @@ export default function HeroHome() {
           />
           <div className="max-w-s mx-auto sm:max-w-none sm:flex sm:justify-center py-6">
             <div data-aos="fade-up" data-aos-delay="400">
-              <a
-                className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0 "
+              <Button
+                className="btn text-white text-lg bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0 "
                 href="#0"
               >
                 Join us LIVE on ZOOM
-              </a>
+              </Button>
             </div>
             <div data-aos="fade-up" data-aos-delay="600">
-              <a
-                className="btn text-white bg-fuchsia-700 hover:bg-fuchsia-800 w-full sm:w-auto sm:ml-4 px-12"
+              <Button
+                className="btn text-white text-lg bg-fuchsia-700 hover:bg-fuchsia-800 w-full sm:w-auto sm:ml-4 px-12"
                 href="#0"
               >
                 Events Calender
-              </a>
+              </Button>
             </div>
           </div>
         </div>

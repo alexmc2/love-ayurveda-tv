@@ -23,7 +23,8 @@ export default function Team() {
           </div>
           <div
             className="sm:flex sm:flex-wrap sm:justify-center  sm:-mx-3"
-            data-aos-id-team
+            data-aos="fade-up"
+            data-aos-delay="100"
           >
             <div className="flex flex-col items-center pb-4 sm:pb-4">
               <Image
@@ -35,7 +36,14 @@ export default function Team() {
               />
             </div>
           </div>
-          <Card className="mx-auto max-w-5xl p-8 sm:p-12 mt-9 mb-9 shadow-sm text-center sm:text-left">
+          <Card className="mx-auto max-w-6xl p-8 sm:p-12 mt-9 mb-9 shadow-sm text-center sm:text-left">
+            {/* <div className="text-center ">
+              <img
+                src="/images/logo.png"
+                alt="logo"
+                className="mx-auto logo-pulse"
+              />
+            </div> */}
             <Typography
               className="text-lg sm:text-lg text-slate-500  "
               data-aos="fade-up"
@@ -88,8 +96,8 @@ export default function Team() {
           >
             <ModalVideo
               thumb={VideoThumb}
-              thumbWidth={1024}
-              thumbHeight={576}
+              thumbWidth={1200}
+              thumbHeight={675}
               thumbAlt="Modal video thumbnail"
               videoUrl="https://www.youtube.com/embed/JAFc6CTXGb0?si=rLfrTJ3AoF3n3ctQ"
               videoWidth={1920}

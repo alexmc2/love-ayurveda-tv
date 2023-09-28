@@ -4,11 +4,11 @@ export default function Newsletter() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* CTA box */}
         <div
-          className="relative bg-fuchsia-700 py-10 px-8 md:py-16 md:px-12"
+          className="relative bg-fuchsia-600 py-10 px-8 md:py-16 md:px-12"
           data-aos="fade-up"
         >
           {/* Background illustration */}
-          <div
+          {/* <div
             className="absolute right-0 top-0 -ml-40 pointer-events-none"
             aria-hidden="true"
           >
@@ -38,14 +38,14 @@ export default function Newsletter() {
                 fill="url(#illustration-04)"
               />
             </svg>
-          </div>
+          </div> */}
 
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
+              <h3 className="h3 text-white mb-2">Sign up to our newsletter</h3>
               <p className="text-purple-200 text-lg">
-                Join our newsletter to get top news before anyone else.
+                Be the first to hearabout our latest news and events.
               </p>
             </div>
 
@@ -55,8 +55,8 @@ export default function Newsletter() {
                 <input
                   type="email"
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
-                  placeholder="Your best email…"
-                  aria-label="Your best email…"
+                  placeholder="Your email…"
+                  aria-label="Your email…"
                 />
                 <a
                   className="btn text-fuchsia-700 bg-purple-100 hover:bg-white shadow"

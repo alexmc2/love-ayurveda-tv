@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import logo from '@/public/images/logo.png';
 
-import { Typography, Card } from '@material-tailwind/react';
+import { Typography, Card, Button } from '@material-tailwind/react';
 
 export default function Features() {
   return (
@@ -60,12 +60,12 @@ export default function Features() {
                   </Card>
                   <div className="max-w-s mx-auto sm:max-w-none sm:flex justify-center py-6">
                     <div data-aos="fade-up" data-aos-delay="400">
-                      <a
-                        className="btn text-white bg-green-600 hover:bg-green-700 w-full  sm:w-auto "
+                      <Button
+                        className="btn text-white text-lg bg-green-600 hover:bg-green-700 w-full  sm:w-auto "
                         href="#0"
                       >
                         Join us LIVE on ZOOM
-                      </a>
+                      </Button>
                     </div>
                   </div>
                 </div>

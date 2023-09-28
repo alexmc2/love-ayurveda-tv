@@ -55,20 +55,20 @@ export default function NewsEvents() {
             <div className="flex flex-wrap justify-center -m-2"></div>
             <div className="max-w-s mx-auto sm:max-w-none sm:flex sm:justify-center ">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a
-                  className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0 group transition duration-50 px-11"
+                <Button
+                  className="btn text-white text-lg bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0 group transition duration-50 px-11"
                   onClick={() => setTab(1)}
                 >
                   Events
-                </a>
+                </Button>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a
-                  className="btn text-white bg-fuchsia-700 hover:bg-fuchsia-800 w-full sm:w-auto sm:ml-4 px-12"
+                <Button
+                  className="btn text-white text-lg bg-fuchsia-700 hover:bg-fuchsia-800 w-full sm:w-auto sm:ml-4 px-12"
                   onClick={() => setTab(2)}
                 >
                   News
-                </a>
+                </Button>
               </div>
             </div>
 
@@ -113,8 +113,8 @@ export default function NewsEvents() {
                     </div>
                   </div>
                   <div>
-                    <Button className=" text-white bg-green-600 hover:bg-green-700 w-full mx-auto">
-                      <span className="text-sm">Upcoming events</span>
+                    <Button className=" text-white text-lg bg-green-600 hover:bg-green-700 w-full mx-auto">
+                      <span>Upcoming events</span>
                     </Button>
                   </div>
                 </Transition>
@@ -152,8 +152,8 @@ export default function NewsEvents() {
                     </div>
                   </div>
                   <div>
-                    <Button className=" text-white bg-fuchsia-600 hover:bg-fuchsia-700 w-full mx-auto">
-                      <span className="text-sm">Latest news</span>
+                    <Button className=" text-white text-lg bg-fuchsia-600 hover:bg-fuchsia-700 w-full mx-auto">
+                      <span >Latest news</span>
                     </Button>
                   </div>
                 </Transition>

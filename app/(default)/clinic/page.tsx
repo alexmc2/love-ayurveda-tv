@@ -3,9 +3,10 @@ export const metadata = {
   description: 'Page description',
 };
 
-import HeroAbout from '@/components/hero-about';
+import HeroClinic from '@/components/hero-clinic';
 
-import AboutMe from '@/components/about-me';
+import AboutClinic from '@/components/about-clinic';
+import TeamImages from '@/components/team-images';
 // import TestimonialsCarousel from '@/components/testimonials-carousel';
 // import Career from '@/components/career';
 import Clients from '@/components/clients';
@@ -14,9 +15,10 @@ import Newsletter from '@/components/newsletter';
 export default function About() {
   return (
     <>
-      <HeroAbout />
+      <HeroClinic />
+      <TeamImages />
 
-      <AboutMe />
+      <AboutClinic />
       {/* <TestimonialsCarousel /> */}
       {/* <Career /> */}
       <Clients />
