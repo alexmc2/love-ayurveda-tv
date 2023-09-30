@@ -12,11 +12,11 @@ export default function HelpSidebar() {
       href: '/help/frequently-asked-questions',
     },
     {
-      name: 'What is Open PRO',
+      name: 'What is Love Ayurveda TV',
       href: '/help/what-is-open-pro',
     },
     {
-      name: 'Open PRO plan’s features',
+      name: 'Love Ayurveda TV plan’s features',
       href: '/help/open-pro-plans-features',
     },
     {

@@ -32,7 +32,7 @@ export default function TestimonialsCarousel() {
       img: UserImage01,
       alt: 'Testimonial 01',
       quote:
-        '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+        '“ I feel grateful that Love Ayurveda TV pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
       name: 'Darya Semenova',
       role: 'Backend Developer',
     },
@@ -40,7 +40,7 @@ export default function TestimonialsCarousel() {
       img: UserImage02,
       alt: 'Testimonial 02',
       quote:
-        '“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“',
+        '“ Not only in my career but in education as well, I feel grateful that Love Ayurveda TV pushed me to expand my horizons and strive to accomplish more.“',
       name: 'Greg Sebastian',
       role: 'Head of Design',
     },
@@ -48,7 +48,7 @@ export default function TestimonialsCarousel() {
       img: UserImage03,
       alt: 'Testimonial 03',
       quote:
-        '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+        '“ I feel grateful that Love Ayurveda TV pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
       name: 'Dominik Prasad',
       role: 'Backend Lead',
     },
@@ -87,7 +87,7 @@ export default function TestimonialsCarousel() {
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-testimonialcar]"
             >
-              Join the Open PRO team
+              Join the Love Ayurveda TV team
             </h2>
             <p
               className="text-xl text-gray-400"

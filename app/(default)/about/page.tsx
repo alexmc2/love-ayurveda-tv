@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'About us - Open PRO',
+  title: 'About us - Love Ayurveda TV',
   description: 'Page description',
 };
 

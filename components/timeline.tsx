@@ -39,7 +39,9 @@ export default function Timeline() {
                     className="absolute left-0 w-2 h-2 bg-fuchsia-700 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
                     aria-hidden="true"
                   ></div>
-                  <h4 className="h4">Open PRO was founded in Milan, Italy</h4>
+                  <h4 className="h4">
+                    Love Ayurveda TV was founded in Milan, Italy
+                  </h4>
                 </div>
                 <p className="text-lg text-gray-400">
                   Pretium lectus quam id leo. Urna et pharetra pharetra massa
@@ -73,7 +75,7 @@ export default function Timeline() {
                     aria-hidden="true"
                   ></div>
                   <h4 className="h4">
-                    Launched the first Open PRO Advanced plan
+                    Launched the first Love Ayurveda TV Advanced plan
                   </h4>
                 </div>
                 <p className="text-lg text-gray-400">

@@ -45,10 +45,10 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                — Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.
+                — Love Ayurveda TV lets me quickly get the insights I care about
+                so that I can focus on my productive work. I've had Love
+                Ayurveda TV for about 24 hours now and I honestly don't know how
+                I functioned without it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{' '}
@@ -87,10 +87,10 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                — Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.
+                — Love Ayurveda TV lets me quickly get the insights I care about
+                so that I can focus on my productive work. I've had Love
+                Ayurveda TV for about 24 hours now and I honestly don't know how
+                I functioned without it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{' '}
@@ -129,10 +129,10 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                — Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.
+                — Love Ayurveda TV lets me quickly get the insights I care about
+                so that I can focus on my productive work. I've had Love
+                Ayurveda TV for about 24 hours now and I honestly don't know how
+                I functioned without it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{' '}

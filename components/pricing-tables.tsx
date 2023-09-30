@@ -19,7 +19,7 @@ export default function PricingTables() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Get the Open PRO plan that fits your needs at a special
+              Get the Love Ayurveda TV plan that fits your needs at a special
               introductory price.
             </p>
           </div>

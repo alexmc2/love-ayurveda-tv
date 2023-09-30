@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Sign Up - Open PRO',
+  title: 'Sign Up - Love Ayurveda TV',
   description: 'Page description',
 };
 
@@ -11,9 +11,7 @@ export default function SignUp() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Page header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-        
-          </div>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20"></div>
 
           {/* Form */}
           <div className="max-w-sm mx-auto">
@@ -120,8 +118,8 @@ export default function SignUp() {
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center">
-                I agree to be contacted by Open PRO about this offer as per the
-                Open PRO{' '}
+                I agree to be contacted by Love Ayurveda TV about this offer as
+                per the Love Ayurveda TV{' '}
                 <Link
                   href="#"
                   className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"
@@ -139,7 +137,7 @@ export default function SignUp() {
               </div>
             </form>
             <div className="text-gray-400 text-center mt-6">
-              Already using Open PRO?{' '}
+              Already using Love Ayurveda TV?{' '}
               <Link
                 href="/signin"
                 className="text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
