@@ -37,7 +37,9 @@ export default function MobileMenu() {
   });
 
   return (
-    <div className="flex md:hidden">
+    <div className="inline-flex md:hidden">
+      {/* Mobile lights switch */}
+
       {/* Hamburger button */}
       <button
         ref={trigger}
@@ -48,134 +50,94 @@ export default function MobileMenu() {
       >
         <span className="sr-only">Menu</span>
         <svg
-          className="w-6 h-6 fill-current text-gray-900"
+          className="w-6 h-6 fill-current text-gray-900 hover:text-gray-900 dark:text-slate-700 dark:hover:text-gray-100 transition duration-150 ease-in-out"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect y="4" width="24" height="2" />
-          <rect y="11" width="24" height="2" />
-          <rect y="18" width="24" height="2" />
+          <rect y="4" width="24" height="2" rx="1" />
+          <rect y="11" width="24" height="2" rx="1" />
+          <rect y="18" width="24" height="2" rx="1" />
         </svg>
       </button>
 
-      {/*Mobile navigation */}
+      {/* Mobile navigation */}
       <div ref={mobileNav}>
         <Transition
           show={mobileNavOpen}
           as="nav"
           id="mobile-nav"
-          className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-white"
-          enter="transition ease-out duration-200 transform"
-          enterFrom="opacity-0 -translate-y-2"
-          enterTo="opacity-100 translate-y-0"
+          className="fixed top-0 h-screen z-20 left-0 w-full  max-w-sm -ml-16 overflow-scroll bg-white dark:bg-gray-900 shadow-lg no-scrollbar"
+          enter="transition ease-out duration-700 transform"
+          enterFrom="opacity-0 -translate-x-full"
+          enterTo="opacity-100 translate-x-0"
           leave="transition ease-out duration-200"
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <ul className="px-5 py-2">
-            <li>
-              <Link
-                href="/pricing"
-                className="flex text-gray-600 hover:text-gray-900 py-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className="flex text-gray-600 hover:text-gray-900 py-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                About us
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/tutorials"
-                className="flex text-gray-600 hover:text-gray-900 py-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Tutorials
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/blog"
-                className="flex text-gray-600 hover:text-gray-900 py-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Blog
-              </Link>
-            </li>
-            <li className="py-2 my-2 border-t border-b border-gray-200">
-              <span
-                className="flex text-gray-600 hover:text-gray-900 py-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Resources
-              </span>
-              <ul className="pl-4">
-                <li>
-                  <Link
-                    href="/documentation"
-                    className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2"
-                    onClick={() => setMobileNavOpen(false)}
-                  >
-                    Documentation
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/support"
-                    className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2"
-                    onClick={() => setMobileNavOpen(false)}
-                  >
-                    Support center
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/404"
-                    className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2"
-                    onClick={() => setMobileNavOpen(false)}
-                  >
-                    404
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link
-                href="/signin"
-                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Sign in
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                <span>Sign up</span>
-                <svg
-                  className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1"
-                  viewBox="0 0 12 12"
-                  xmlns="http://www.w3.org/2000/svg"
+          <div className="py-6 pr-4 pl-20 items-center">
+            <img
+              src="/images/logo.png"
+              alt="logo"
+              className="mx-auto logo-pulse pb-10 w-28 h-24"
+            />
+            {/* Links */}
+            <ul className="">
+              <li>
+                <Link
+                  href="/"
+                  className="flex text-slate-700 hover:text-gray-200 py-2 dark:text-slate-700 dark:hover:text-gray-100"
+                  onClick={() => setMobileNavOpen(false)}
                 >
-                  <path
-                    d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                    fill="#999"
-                    fillRule="nonzero"
-                  />
-                </svg>
-              </Link>
-            </li>
-          </ul>
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="flex text-slate-700 hover:text-gray-200 py-2 dark:text-slate-700 dark:hover:text-gray-100"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/talks"
+                  className="flex text-slate-700 hover:text-gray-200 py-2 dark:text-slate-700 dark:hover:text-gray-100"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Talks
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="flex text-slate-700 hover:text-gray-200 py-2 dark:text-slate-700 dark:hover:text-gray-100"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  News
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/clinic"
+                  className="flex text-slate-700 hover:text-gray-200 py-2 dark:text-slate-700 dark:hover:text-gray-100"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Clinic
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="flex text-slate-700 hover:text-gray-200 py-2 dark:text-slate-700 dark:hover:text-gray-100"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
         </Transition>
       </div>
     </div>

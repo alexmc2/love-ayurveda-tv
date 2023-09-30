@@ -116,7 +116,7 @@ export default function TestimonialsCarousel() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <circle
-                    className="fill-current text-green-500"
+                    className="fill-current text-sky-500"
                     cx="12"
                     cy="12"
                     r="12"
@@ -140,7 +140,7 @@ export default function TestimonialsCarousel() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <circle
-                    className="fill-current text-green-500"
+                    className="fill-current text-sky-500"
                     cx="12"
                     cy="12"
                     r="12"
@@ -164,7 +164,7 @@ export default function TestimonialsCarousel() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <circle
-                    className="fill-current text-green-500"
+                    className="fill-current text-sky-500"
                     cx="12"
                     cy="12"
                     r="12"
@@ -188,7 +188,7 @@ export default function TestimonialsCarousel() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <circle
-                    className="fill-current text-green-500"
+                    className="fill-current text-sky-500"
                     cx="12"
                     cy="12"
                     r="12"
@@ -212,7 +212,7 @@ export default function TestimonialsCarousel() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <circle
-                    className="fill-current text-green-500"
+                    className="fill-current text-sky-500"
                     cx="12"
                     cy="12"
                     r="12"

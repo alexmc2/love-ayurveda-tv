@@ -6,22 +6,22 @@ export const metadata = {
 import HeroClinic from '@/components/hero-clinic';
 
 import AboutClinic from '@/components/about-clinic';
-import TeamImages from '@/components/team-images';
+import ClinicImages from '@/components/clinic-images';
 // import TestimonialsCarousel from '@/components/testimonials-carousel';
 // import Career from '@/components/career';
-import Clients from '@/components/clients';
+// import Clients from '@/components/clients';
 import Newsletter from '@/components/newsletter';
 
 export default function About() {
   return (
     <>
       <HeroClinic />
-      <TeamImages />
+      <ClinicImages />
 
       <AboutClinic />
       {/* <TestimonialsCarousel /> */}
       {/* <Career /> */}
-      <Clients />
+      {/* <Clients /> */}
       <Newsletter />
     </>
   );

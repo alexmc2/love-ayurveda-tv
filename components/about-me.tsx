@@ -37,6 +37,11 @@ export default function Team() {
             </div>
           </div>
           <Card className="mx-auto max-w-6xl p-8 sm:p-12 mt-9 mb-9 shadow-sm text-center sm:text-left">
+            <img
+              src="/images/logo.png"
+              alt="logo"
+              className="mx-auto logo-pulse pb-10 w-54 h-32"
+            />
             {/* <div className="text-center ">
               <img
                 src="/images/logo.png"
@@ -73,7 +78,7 @@ export default function Team() {
             <div className="max-w-s mx-auto sm:max-w-none flex justify-center ">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn text-white bg-green-600 hover:bg-green-700 w-full my-8 sm:w-auto sm:mb-0 "
+                  className="btn text-white bg-sky-600 hover:bg-sky-700 w-full my-8 sm:w-auto sm:mb-0 "
                   href="#0"
                 >
                   Join us LIVE on ZOOM

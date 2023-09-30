@@ -8,7 +8,7 @@ import HeroAbout from '@/components/hero-about';
 import AboutMe from '@/components/about-me';
 // import TestimonialsCarousel from '@/components/testimonials-carousel';
 // import Career from '@/components/career';
-import Clients from '@/components/clients';
+// import Clients from '@/components/clients';
 import Newsletter from '@/components/newsletter';
 
 export default function About() {
@@ -19,7 +19,7 @@ export default function About() {
       <AboutMe />
       {/* <TestimonialsCarousel /> */}
       {/* <Career /> */}
-      <Clients />
+      {/* <Clients /> */}
       <Newsletter />
     </>
   );

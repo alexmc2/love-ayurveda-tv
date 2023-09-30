@@ -54,7 +54,7 @@ export default function HeroHome() {
                   href="https://www.eventbrite.co.uk/o/love-ayurveda-tv-32057046449"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-blue-500"
+                  className="text-blue-500 hover:underline"
                 >
                   Follow us on Eventbrite
                 </a>
@@ -63,7 +63,7 @@ export default function HeroHome() {
                   href="https://www.youtube.com/@loveayurvedatv/featured"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-blue-500"
+                  className="text-blue-500 hover:underline"
                 >
                   subscribe to our YouTube Channel
                 </a>{' '}
@@ -84,7 +84,7 @@ export default function HeroHome() {
           <div className="max-w-s mx-auto sm:max-w-none sm:flex sm:justify-center py-6">
             <div data-aos="fade-up" data-aos-delay="400">
               <Button
-                className="btn text-white text-lg bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0 "
+                className="btn text-white text-lg bg-sky-600 hover:bg-sky-700 w-full mb-4 sm:w-auto sm:mb-0 "
                 href="#0"
               >
                 Join us LIVE on ZOOM

@@ -67,7 +67,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/tutorials"
+                  href="/talks"
                   className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Talks
@@ -75,7 +75,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/blog"
+                  href="/talks"
                   className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   News
@@ -87,15 +87,15 @@ export default function Header() {
               <li>
                 <Link
                   href="/clinic"
-                  className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
+                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Clinic
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/support"
-                  className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
+                  href="/contact"
+                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Contact
                 </Link>

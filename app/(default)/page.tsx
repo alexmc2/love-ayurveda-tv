@@ -8,7 +8,7 @@ import Hero from '@/components/hero-home'
 import FeaturesHome from '@/components/features'
 import NewsEvents from '@/components/news-events'
 // import Target from '@/components/target'
-import News from '@/components/news'
+import Talks from '@/components/talks'
 import Newsletter from '@/components/newsletter'
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
       <FeaturesHome />
       <NewsEvents />
       {/* <Target /> */}
-      <News />
+      <Talks />
       <Newsletter />      
     </>
   )

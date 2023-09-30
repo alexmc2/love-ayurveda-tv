@@ -10,7 +10,7 @@ export default function PostTags({ tags }: { tags: string[] }) {
       case 'Tutorials and articles':
         return 'text-gray-100 bg-teal-500 hover:bg-teal-600';
       case 'Culture':
-        return 'text-gray-100 bg-green-500 hover:bg-green-600';
+        return 'text-gray-100 bg-sky-500 hover:bg-sky-600';
       default:
         return 'text-gray-100 bg-fuchsia-700 hover:bg-purple-700';
     }

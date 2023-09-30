@@ -81,7 +81,7 @@ export default function PricingTables() {
                 <ul className="text-gray-400 -mb-3 grow">
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -91,7 +91,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -101,7 +101,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -111,7 +111,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -137,7 +137,7 @@ export default function PricingTables() {
                 data-aos-delay="600"
               >
                 <div className="absolute top-0 right-0 mr-6 -mt-4">
-                  <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-green-200 rounded-full">
+                  <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-sky-600 bg-sky-200 rounded-full">
                     Most Popular
                   </div>
                 </div>
@@ -161,7 +161,7 @@ export default function PricingTables() {
                 <ul className="text-gray-400 -mb-3 grow">
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -171,7 +171,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -181,7 +181,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -191,7 +191,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -201,7 +201,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -246,7 +246,7 @@ export default function PricingTables() {
                 <ul className="text-gray-400 -mb-3 grow">
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -256,7 +256,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -266,7 +266,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -276,7 +276,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -286,7 +286,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -296,7 +296,7 @@ export default function PricingTables() {
                   </li>
                   <li className="flex items-center mb-3">
                     <svg
-                      className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 shrink-0"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/legacy/image';
 import { Typography, Card } from '@material-tailwind/react';
 
-export default function HeroClinic() {
+export default function HeroContact() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -21,12 +21,12 @@ export default function HeroClinic() {
   }, []);
 
   const heroImageSrc = isMobile
-    ? '/images/clinic-mobile.jpg'
-    : '/images/clinic-desktop.jpg';
+    ? '/images/contact-mobile.jpg'
+    : '/images/contact-desktop.jpg';
 
   return (
-    <section className="relative pt-20 md:pt-24 pb-96 ">
-      <div className="absolute inset-0 inset-y-16 sm:inset-y-20 h-[400px] sm:h-[550px] ">
+    <section className="relative pt-20 md:pt-24 pb-96">
+      <div className="absolute inset-0 inset-y-16 sm:inset-y-20 h-[400px] sm:h-[550px]">
         <Image
           src={heroImageSrc}
           alt="Hero Image"

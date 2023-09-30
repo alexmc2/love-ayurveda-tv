@@ -95,7 +95,7 @@ export default function ModalVideo({
             leaveTo="opacity-0 scale-95"
           >
             <div className="max-w-6xl mx-auto h-full flex items-center">
-              <Dialog.Panel className="w-[90vw] md:w-[80vw] h-[38vh] md:h-[80vh] bg-black overflow-hidden">
+              <Dialog.Panel className="w-[95vw] md:w-[80vw] h-[38vh] md:h-[80vh] bg-black overflow-hidden">
                 <iframe
                   width="100%"
                   height="100%"

@@ -5,7 +5,7 @@ import TeamMosaic02 from '@/public/images/team-mosaic-02.jpg';
 import TeamMosaic03 from '@/public/images/clinic.jpg';
 import TeamMosaic04 from '@/public/images/team-mosaic-04.jpg';
 
-export default function TeamImages() {
+export default function ClinicImages() {
   return (
     <section className="relative ">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -37,7 +37,7 @@ export default function TeamImages() {
               />
             </figure>
              <figure
-              className="absolute h-auto hide-on-mobile mx-auto "
+              className="absolute h-auto hide-on-mobile hide-on-tablet mx-auto "
               style={{
                 top: '28.5%',
                 left: '41%',
