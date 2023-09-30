@@ -21,7 +21,7 @@ export default function Dropdown({ children, title }: DropdownProps) {
     >
       <a
         className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-        href="#0"
+        href="/"
         aria-expanded={dropdownOpen}
         onClick={(e) => e.preventDefault()}
       >

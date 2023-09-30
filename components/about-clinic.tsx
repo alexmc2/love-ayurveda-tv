@@ -67,7 +67,7 @@ export default function AboutClinic() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <Button
                   className=" text-white text-lg bg-sky-600 hover:bg-sky-700 w-full my-10 sm:w-auto sm:mb-0 "
-                  href="#0"
+              
                 >
                   Get in touch
                 </Button>

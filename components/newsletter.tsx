@@ -27,7 +27,7 @@ export default function Newsletter() {
                 />
                 <a
                   className="btn text-sky-500 bg-purple-100 hover:bg-white shadow"
-                  href="#0"
+                  href="/"
                 >
                   Subscribe
                 </a>

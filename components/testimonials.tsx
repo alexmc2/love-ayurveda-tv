@@ -55,7 +55,7 @@ export default function Testimonials() {
                 -{' '}
                 <a
                   className="text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  href="/"
                 >
                   UX Board
                 </a>
@@ -97,7 +97,7 @@ export default function Testimonials() {
                 -{' '}
                 <a
                   className="text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  href="/"
                 >
                   UX Board
                 </a>
@@ -139,7 +139,7 @@ export default function Testimonials() {
                 -{' '}
                 <a
                   className="text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  href="/"
                 >
                   UX Board
                 </a>

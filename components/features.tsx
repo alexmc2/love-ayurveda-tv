@@ -62,7 +62,7 @@ export default function Features() {
                     <div data-aos="fade-up" data-aos-delay="400">
                       <Button
                         className="btn text-white text-lg bg-sky-600 hover:bg-sky-700 w-full  sm:w-auto "
-                        href="#0"
+                       
                       >
                         Join us LIVE on ZOOM
                       </Button>

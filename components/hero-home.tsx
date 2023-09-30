@@ -85,7 +85,7 @@ export default function HeroHome() {
             <div data-aos="fade-up" data-aos-delay="400">
               <Button
                 className="btn text-white text-lg bg-sky-600 hover:bg-sky-700 w-full mb-4 sm:w-auto sm:mb-0 "
-                href="#0"
+          
               >
                 Join us LIVE on ZOOM
               </Button>
@@ -93,7 +93,7 @@ export default function HeroHome() {
             <div data-aos="fade-up" data-aos-delay="600">
               <Button
                 className="btn text-white text-lg bg-fuchsia-700 hover:bg-fuchsia-800 w-full sm:w-auto sm:ml-4 px-12"
-                href="#0"
+             
               >
                 Events Calender
               </Button>

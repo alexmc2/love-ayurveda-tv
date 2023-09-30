@@ -34,7 +34,7 @@ export default function Cta() {
             >
               <a
                 className="btn text-white bg-fuchsia-700 hover:bg-purple-700"
-                href="#0"
+                href="/"
               >
                 Start free trial
               </a>

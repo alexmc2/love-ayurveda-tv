@@ -123,7 +123,7 @@ export default function PricingTables() {
                 <div className="border border-gray-700 p-3 mt-6">
                   <a
                     className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700 w-full"
-                    href="#0"
+                    href="/"
                   >
                     Start free trial
                   </a>
@@ -213,7 +213,7 @@ export default function PricingTables() {
                 <div className="border border-gray-700 p-3 mt-6">
                   <a
                     className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700 w-full"
-                    href="#0"
+                    href="/"
                   >
                     Start free trial
                   </a>
@@ -308,7 +308,7 @@ export default function PricingTables() {
                 <div className="border border-gray-700 p-3 mt-6">
                   <a
                     className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700 w-full"
-                    href="#0"
+                    href="/"
                   >
                     Start free trial
                   </a>
@@ -324,7 +324,7 @@ export default function PricingTables() {
               <div>
                 <a
                   className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700"
-                  href="#0"
+                  href="/"
                 >
                   Contact us
                 </a>

@@ -18,7 +18,7 @@ export default function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="/"
                   >
                     <span>Lead Product Designer</span>
                     <svg
@@ -86,7 +86,7 @@ export default function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="/"
                   >
                     <span>Front-end Engineer</span>
                     <svg
@@ -154,7 +154,7 @@ export default function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-fuchsia-700 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="/"
                   >
                     <span>Product Manager</span>
                     <svg

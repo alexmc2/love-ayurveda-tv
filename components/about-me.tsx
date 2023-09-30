@@ -79,7 +79,7 @@ export default function Team() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-white bg-sky-600 hover:bg-sky-700 w-full my-8 sm:w-auto sm:mb-0 "
-                  href="#0"
+                  href="/"
                 >
                   Join us LIVE on ZOOM
                 </a>

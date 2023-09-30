@@ -24,7 +24,7 @@ export default function CaseStudies() {
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 md:gap-6 lg:gap-6 items-start md:max-w-none">
             {/* 1st article */}
             <article className="flex flex-col h-full" data-aos="fade-up">
-              <a className="block" href="#0">
+              <a className="block" href="/">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <Image
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -42,7 +42,7 @@ export default function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="/"
                   >
                     How to build anything
                   </a>
@@ -56,7 +56,7 @@ export default function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700 mt-6"
-                    href="#0"
+                    href="/"
                   >
                     <span className="text-sm">Learn more</span>
                     <svg
@@ -77,7 +77,7 @@ export default function CaseStudies() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <a className="block" href="#0">
+              <a className="block" href="/">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <Image
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -95,7 +95,7 @@ export default function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="/"
                   >
                     How to build anything
                   </a>
@@ -109,7 +109,7 @@ export default function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700 mt-6"
-                    href="#0"
+                    href="/"
                   >
                     <span className="text-sm">Learn more</span>
                     <svg
@@ -130,7 +130,7 @@ export default function CaseStudies() {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <a className="block" href="#0">
+              <a className="block" href="/">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <Image
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -148,7 +148,7 @@ export default function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="/"
                   >
                     How to build anything
                   </a>
@@ -162,7 +162,7 @@ export default function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-fuchsia-700 hover:bg-purple-700 mt-6"
-                    href="#0"
+                    href="/"
                   >
                     <span className="text-sm">Learn more</span>
                     <svg
